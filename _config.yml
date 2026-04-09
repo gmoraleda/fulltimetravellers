@@ -1,0 +1,26 @@
+title: Full Time Travellers
+description: Travel blog - ES / DE
+url: "https://gmoraleda.github.io"
+baseurl: "/fulltimetravellers"
+theme: minima
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: "_posts/es"
+    values:
+      layout: post
+      lang: es
+  - scope:
+      path: "_posts/de"
+    values:
+      layout: post
+      lang: de
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+permalink: /:lang/:year/:month/:day/:title/

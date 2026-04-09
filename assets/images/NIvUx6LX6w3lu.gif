@@ -1,0 +1,19 @@
+Domain "i.giphy.com" blocked by Apple Claude Code security sandbox.
+
+To allow this domain "i.giphy.com", choose one of these options:
+
+Option 1: Use the monitoring dashboard
+  1. Open http://localhost:5668
+  2. Select "Domains" from the sidebar
+  3. Click "Add Domain"
+  4. Enter the hostname
+  5. Click "Add Domain"
+
+Option 2: Add to user allowlist
+  Add the hostname to:
+  /Users/gmoraleda/.claude/apple/dangerous_allowed_domains.csv
+
+Option 3: Add to project allowlist (for team sharing)
+  Add the hostname to:
+  .claude/apple/dangerous_allowed_domains.csv
+  (relative to your git repository root)
