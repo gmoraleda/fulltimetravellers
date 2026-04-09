@@ -5,12 +5,14 @@ permalink: /de/
 lang: de
 ---
 
-{% for page in site.pages %}{% if page.lang == "de" and page.url contains "/de/" and page.url != "/de/" %}[{{ page.title }}]({{ page.url | relative_url }}) | {% endif %}{% endfor %}
-
----
+<nav class="sub-nav">
+{% for pg in site.pages %}{% if pg.lang == "de" and pg.url contains "/de/" and pg.url != "/de/" %}<a href="{{ pg.url | relative_url }}">{{ pg.title }}</a> {% endif %}{% endfor %}
+</nav>
 
 {% assign de_posts = site.posts | where: "lang", "de" %}
 {% for post in de_posts %}
-**{{ post.date | date: "%d.%m.%Y" }}** — [{{ post.title }}]({{ post.url | relative_url }})
-
+<div class="post-entry">
+  <span class="date">{{ post.date | date: "%d.%m.%Y" }}</span>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+</div>
 {% endfor %}
