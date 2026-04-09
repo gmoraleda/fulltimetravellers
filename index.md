@@ -5,7 +5,7 @@ title: Full Time Travellers
 
 <p class="home-intro">Travel blog archive &mdash; 2016/2017</p>
 
-<h2>Espanol</h2>
+<h2>Español</h2>
 {% assign es_posts = site.posts | where: "lang", "es" %}
 {% for post in es_posts limit: 5 %}
 <div class="post-entry">

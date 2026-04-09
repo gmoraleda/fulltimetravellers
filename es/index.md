@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Espanol
+title: Español
 permalink: /es/
 lang: es
 ---
