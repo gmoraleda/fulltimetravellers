@@ -6,6 +6,6 @@ lang: es
 categories: [youtube, europa, grecia]
 ---
 
-https://www.youtube.com/watch?v=DrgS22kKZPY
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/DrgS22kKZPY" allowfullscreen></iframe></div>
 
 Ya hemos llegado a Atenas. ¿La siguiente misión? Encontrar dos cajas para las bicis, empaquetarlas y enviarlas de vuelta a Austria...

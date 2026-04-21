@@ -6,6 +6,6 @@ lang: es
 categories: [hong kong, asia, youtube]
 ---
 
-https://www.youtube.com/watch?v=eV42MUvNvT8
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/eV42MUvNvT8" allowfullscreen></iframe></div>
 
 Muchas horas de espera y muchas horas de vuelo, pero... ya estamos en Hong Kong! Y lo mejor de todo es que tienen retretes automáticos!

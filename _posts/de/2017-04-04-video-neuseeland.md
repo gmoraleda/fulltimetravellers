@@ -8,4 +8,4 @@ categories: [ozeanien]
 
 Hier in Neuseeland lässt es sich aushalten. ;-) Überzeugt euch selbst von der landschaftlichen Schönheit und von den zahlreichen Gletschern, Vulkanen, Bergseen, Stränden etc. im nachfolgenden Video.
 
-https://www.youtube.com/embed/A90Fq1xErIo
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/A90Fq1xErIo" allowfullscreen></iframe></div>

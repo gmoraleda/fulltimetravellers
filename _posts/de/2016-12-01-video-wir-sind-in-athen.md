@@ -6,7 +6,7 @@ lang: de
 categories: [fahrradreise, griechenland]
 ---
 
-https://www.youtube.com/watch?v=DrgS22kKZPY
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/DrgS22kKZPY" allowfullscreen></iframe></div>
 
 
 Wir haben es geschafft: München nach Athen mit dem Fahrrad! Nach über 3.000 Kilometern müssen die Räder noch irgendwie wieder nach Hause gebracht werden...

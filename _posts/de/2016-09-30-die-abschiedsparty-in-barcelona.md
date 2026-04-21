@@ -6,7 +6,7 @@ lang: de
 categories: [reiseplanung]
 ---
 
-https://www.youtube.com/watch?v=jRoxqPjdZ0E
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/jRoxqPjdZ0E" allowfullscreen></iframe></div>
 
 
 Nun ist es schon soweit. Wir fliegen nach Barcelona um uns von Freunden und Familie zu verabschieden.

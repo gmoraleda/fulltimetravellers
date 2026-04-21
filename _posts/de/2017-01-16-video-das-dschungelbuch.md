@@ -6,7 +6,7 @@ lang: de
 categories: [asien, sonstiges]
 ---
 
-https://www.youtube.com/watch?v=FYthQRw3hpk
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/FYthQRw3hpk" allowfullscreen></iframe></div>
 Inmitten des Nirgendwo ohne Beschäftigung. Ohne Internet. Ohne andere Personen. Ohne Zivilisation. Nur das Resort und wir. Drei Wochen lang. Unsere Erfahrungen aus dem malaysischen Dschungel erfahrt ihr in diesem Video.
 
  

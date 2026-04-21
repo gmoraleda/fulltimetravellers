@@ -12,10 +12,10 @@ Taiwan - ein Land, über das wir vor Reiseantritt nur recht wenig wussten. Das s
 
 **Taiwan - die ersten Eindrücke:**
 
-https://www.youtube.com/embed/YoddYU7nfEA
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/YoddYU7nfEA" allowfullscreen></iframe></div>
 
  
 
 **Resümee - ein tolles Land:**
 
-https://www.youtube.com/embed/bqDQ7w7rA4U
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/bqDQ7w7rA4U" allowfullscreen></iframe></div>

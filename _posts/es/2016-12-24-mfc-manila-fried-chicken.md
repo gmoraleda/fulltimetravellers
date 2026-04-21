@@ -6,6 +6,6 @@ lang: es
 categories: [sin categoría]
 ---
 
-https://www.youtube.com/watch?v=wmjr4dGOMFk
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/wmjr4dGOMFk" allowfullscreen></iframe></div>
 
 Un resumen de nuestro paso por las Filipinas. Comida rápida, terrazas de arroz y una playa para nosotros solos...
