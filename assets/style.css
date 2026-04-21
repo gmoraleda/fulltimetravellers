@@ -14,7 +14,7 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.7;
   color: var(--text);
   background: var(--bg);
@@ -47,7 +47,7 @@ a:hover { text-decoration: underline; }
 }
 
 .site-title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   color: var(--text);
 }
@@ -55,7 +55,7 @@ a:hover { text-decoration: underline; }
 
 .site-header nav a {
   margin-left: 20px;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--muted);
 }
 .site-header nav a:hover { color: var(--text); }
@@ -66,12 +66,12 @@ a:hover { text-decoration: underline; }
 }
 
 .post-entry .date {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--light);
 }
 
 .post-entry h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   margin: 2px 0 0;
   line-height: 1.3;
@@ -87,7 +87,7 @@ a:hover { text-decoration: underline; }
 /* Sub-navigation (pages like Nosotros, La ruta) */
 .sub-nav {
   margin-bottom: 30px;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--light);
 }
 .sub-nav a {
@@ -102,14 +102,14 @@ a:hover { text-decoration: underline; }
 }
 
 .post-header h1 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 8px;
 }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--light);
 }
 
@@ -117,6 +117,12 @@ a:hover { text-decoration: underline; }
 
 .post-content {
   margin-bottom: 40px;
+}
+
+.post-content,
+.post-meta,
+.post-entry .date {
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .post-content p {
@@ -129,16 +135,24 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 
-.post-content h2 { font-size: 22px; }
-.post-content h3 { font-size: 19px; }
-.post-content h4 { font-size: 17px; }
+.post-content h2 { font-size: 24px; }
+.post-content h3 { font-size: 21px; }
+.post-content h4 { font-size: 19px; }
 
 .post-content img {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
-  margin: 1.5em 0;
+  margin: 0 auto;
   display: block;
+}
+
+.post-content p:has(> img) {
+  text-align: center;
+  font-size: 16px;
+  color: var(--light);
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 
 .post-content blockquote {
@@ -162,12 +176,12 @@ a:hover { text-decoration: underline; }
 }
 
 .post-nav {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* Page */
 .page h1 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -184,7 +198,7 @@ a:hover { text-decoration: underline; }
 /* Home */
 .home-intro {
   margin-bottom: 30px;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--muted);
 }
 
@@ -193,7 +207,7 @@ footer {
   margin-top: 60px;
   padding: 20px 0 30px;
   border-top: 1px solid var(--border);
-  font-size: 13px;
+  font-size: 15px;
   color: var(--light);
 }
 footer a { color: var(--light); }
@@ -207,9 +221,9 @@ hr {
 
 /* Responsive */
 @media (max-width: 600px) {
-  body { font-size: 16px; }
+  body { font-size: 18px; }
   .site-header { margin-bottom: 30px; }
   .header-inner { flex-direction: column; gap: 8px; }
   .site-header nav a { margin-left: 0; margin-right: 16px; }
-  .post-header h1 { font-size: 24px; }
+  .post-header h1 { font-size: 26px; }
 }
